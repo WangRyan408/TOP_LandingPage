@@ -1,1 +1,87 @@
+body {
+    box-sizing: border-box; 
+}
 
+
+
+header {
+    outline: 1px solid;
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    width: 100%;
+    margin: -10px -20px 0 -8px;
+    /*background-color: red;*/
+}
+
+
+
+#logo, #navbar {
+    outline: 1px solid;
+    margin-left: auto;
+} 
+
+#navlist {
+  display: flex;
+  flex-direction: row;
+  list-style: none; 
+}
+
+#section_head {
+    display: flex;
+    flex-direction: row;
+    /*background-color: olive;*/
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid;
+}
+
+#rando_info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    outline: 1px solid;
+    height: 50vh;
+}
+
+#rando_quote {
+    outline: 1px solid;
+    height: 25vh;
+}
+
+#callToAction {
+    outline: 1px solid;
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#centered {
+    display: flex;
+    flex-direction: row;
+    outline: 1px solid;
+}
+
+#text {
+    outline: 1px solid;
+}
+
+.sign {
+    
+    margin-top: 70%;
+}
+
+
+#test {
+    
+    margin: 0 auto;
+}
+
+.work {
+    margin: 0 auto;
+    outline: 1px solid;
+}
