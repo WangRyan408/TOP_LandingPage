@@ -1,3 +1,13 @@
+:root {
+    --hero-text: #F9FAF8;
+    --hero-background: #1F2937;
+    
+}
+
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
 body {
     box-sizing: border-box; 
 }
@@ -11,10 +21,14 @@ header {
     position: fixed;
     width: 100%;
     margin: -10px -20px 0 -8px;
-    /*background-color: red;*/
+    color: var(--hero-text); 
+    background-color: var(--hero-background);
 }
 
-
+#headlogo {
+    margin-right: auto;
+    margin-left: 15%;
+}
 
 #logo, #navbar {
     outline: 1px solid;
@@ -30,11 +44,12 @@ header {
 #section_head {
     display: flex;
     flex-direction: row;
-    /*background-color: olive;*/
+    background-color: var(--hero-background);
     height: 50vh;
     justify-content: center;
     align-items: center;
     outline: 1px solid;
+    color: var(--hero-text);
 }
 
 #rando_info {
@@ -76,12 +91,20 @@ header {
 }
 
 
+footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    outline: 1px solid;
+}
+
 #test {
-    
+
     margin: 0 auto;
 }
 
+
 .work {
-    margin: 0 auto;
+    
     outline: 1px solid;
 }
