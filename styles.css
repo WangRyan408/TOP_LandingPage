@@ -15,7 +15,7 @@ body {
 
 
 header {
-    outline: 1px solid;
+   
     display: flex;
     flex-direction: row;
     position: fixed;
@@ -31,7 +31,6 @@ header {
 }
 
 #logo, #navbar {
-    outline: 1px solid;
     margin-left: auto;
 } 
 
@@ -41,12 +40,21 @@ header {
   list-style: none; 
 }
 
+.list {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
 #section_head {
     display: flex;
     flex-direction: row;
     background-color: var(--hero-background);
     height: 50vh;
     justify-content: center;
+    margin: -2px -10px 0 -10px;
     align-items: center;
     outline: 1px solid;
     color: var(--hero-text);
@@ -57,37 +65,133 @@ header {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    outline: 1px solid;
     height: 50vh;
 }
 
-#rando_quote {
-    outline: 1px solid;
-    height: 25vh;
+#rando_info > #random > h1 {
+    font-weight: 900;
+    font-size: 28px;
+    
+    
+    
+    
 }
 
-#callToAction {
-    outline: 1px solid;
-    height: 25vh;
+#random {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#infotitle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.big-box {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
+.round-box {
+    outline: 1px solid blue;
+    border-radius: 10px;
+    height: 15vh;
+    width: 55%;
+
+}
+
+.subtext {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 55%;
+}
+
+#boxes {
+    display: flex;
+    flex-direction: row;
+    
+    
+}
+
+#rando_quote {
+    
+    height: 35vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #E5E7EB;
+    margin: 0 -10px 0 -10px;
+}
+
+blockquote {
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 200;
+    color: #1F2937;
+}
+
+cite {
+    margin-left: auto;
+    margin-right: 10%;
+}
+
+#callToAction {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 -8px 0 -8px;
+    
+}
+
 #centered {
     display: flex;
     flex-direction: row;
-    outline: 1px solid;
+    outline: 1px solid #3882F6;
+    border-radius: 10px;
+    background-color: #3882F6;
+    width: 70%;
+    height: 55%;
 }
 
 #text {
-    outline: 1px solid;
+    margin-top: 10px;
+    margin-left: 10%;
+    margin-right: auto;
+    color: white;
+}
+
+#text > h3 {
+    margin-bottom: 0px;
+}
+
+#text > p {
+    margin-bottom: 0px;
+}
+
+#signUp {
+    margin-right: 5%;
+    margin-left: auto;
 }
 
 .sign {
-    
-    margin-top: 70%;
+    background-color: #3882F6;
+    color: white;
+    border-style: solid;
+    border-radius: 8px;
+    margin-top: 55%;
+    background: transparent;
+    padding: 5px 20px 5px 20px;
+    outline: 1px solid;
 }
 
 
@@ -95,7 +199,9 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    outline: 1px solid;
+    background-color: var(--hero-background);
+    color: white;
+    margin: 0 -8px -10px -8px;
 }
 
 #test {
@@ -104,7 +210,3 @@ footer {
 }
 
 
-.work {
-    
-    outline: 1px solid;
-}
